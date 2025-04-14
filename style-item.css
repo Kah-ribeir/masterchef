@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap');
+
+.imgdiv{
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+    margin-top: 25px;
+  }
+
+  .imgdiv div img {
+    width: 200px;
+    height: 200px;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  footer{
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  p{
+    text-align: center;
+    font-family:"Libre Baskerville", serif;
+
+  }
+  img{
+    border-radius: 50px ;
+    box-shadow: 10px 10px #0a0a0a;
+    border: 5px #242222;
+  }
+  h1{
+    font-family: "Playfair Display", serif;;
+  }
+  h2{
+    font-family: "National Park", sans-serif;
+  }
+.imgdiv div{
+    
+    border-radius: 50px;
+    width: 30%;
+}
